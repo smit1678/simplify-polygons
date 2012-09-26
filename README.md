@@ -10,4 +10,4 @@ If you have a PostGIS enabled PostgreSQL database, skip to Step 2.
 Run `create-db.sh` to create a PostGIS enabled database with topology support. 
 
 ### Step 2 
-Run `simplify.sh [location of shapefile] [short name for table in db]`. 
+Run `simplify.sh [location of shapefile] [short name for table in db] [EPSG Projection Code] [Database name] [Simplifcation Toleranace]`. 
